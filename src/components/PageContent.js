@@ -11,8 +11,8 @@ const PageContent = () => (
     </div>
     <div className="col">
       <LinksListView
-        title="Links to learn German"
-        category="german"
+        title="Links to learn French"
+        category="french"
       />
     </div>
   </div>
