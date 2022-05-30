@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { set, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import AddLinkDialog from "./AddLinkDialog";
 import LinkItem from "./LinkItem";
 
@@ -32,6 +32,7 @@ const LinksListView = ({ title, category }) => {
 
   useEffect(() => {
     getLinks();
+    // eslint-disable-next-line
   }, []);
 
   async function createLink(data = {}) {
